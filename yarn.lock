@@ -863,7 +863,14 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.10.4"
 
-"@babel/plugin-transform-react-jsx-development@^7.12.1", "@babel/plugin-transform-react-jsx-development@^7.14.5":
+"@babel/plugin-transform-react-jsx-development@^7.12.1":
+  "integrity" "sha1-Gmxz4vftLELuvD0q1gsMdJT8ua8="
+  "resolved" "https://registry.nlark.com/@babel/plugin-transform-react-jsx-development/download/@babel/plugin-transform-react-jsx-development-7.14.5.tgz"
+  "version" "7.14.5"
+  dependencies:
+    "@babel/plugin-transform-react-jsx" "^7.14.5"
+
+"@babel/plugin-transform-react-jsx-development@^7.14.5":
   "integrity" "sha1-Gmxz4vftLELuvD0q1gsMdJT8ua8="
   "resolved" "https://registry.nlark.com/@babel/plugin-transform-react-jsx-development/download/@babel/plugin-transform-react-jsx-development-7.14.5.tgz"
   "version" "7.14.5"
@@ -895,7 +902,15 @@
     "@babel/plugin-syntax-jsx" "^7.14.5"
     "@babel/types" "^7.14.9"
 
-"@babel/plugin-transform-react-pure-annotations@^7.12.1", "@babel/plugin-transform-react-pure-annotations@^7.14.5":
+"@babel/plugin-transform-react-pure-annotations@^7.12.1":
+  "integrity" "sha1-GN5hK4QCHjqYAsvCEsnZ9G0NEfw="
+  "resolved" "https://registry.nlark.com/@babel/plugin-transform-react-pure-annotations/download/@babel/plugin-transform-react-pure-annotations-7.14.5.tgz"
+  "version" "7.14.5"
+  dependencies:
+    "@babel/helper-annotate-as-pure" "^7.14.5"
+    "@babel/helper-plugin-utils" "^7.14.5"
+
+"@babel/plugin-transform-react-pure-annotations@^7.14.5":
   "integrity" "sha1-GN5hK4QCHjqYAsvCEsnZ9G0NEfw="
   "resolved" "https://registry.nlark.com/@babel/plugin-transform-react-pure-annotations/download/@babel/plugin-transform-react-pure-annotations-7.14.5.tgz"
   "version" "7.14.5"
@@ -2004,9 +2019,9 @@
     "pretty-format" "^26.0.0"
 
 "@types/json-schema@*", "@types/json-schema@^7.0.3", "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.7", "@types/json-schema@^7.0.8":
-  "integrity" "sha1-7fG/Hb9OBEE8qOWxezt9fVS1mBg="
-  "resolved" "https://registry.nlark.com/@types/json-schema/download/@types/json-schema-7.0.8.tgz?cache=0&sync_timestamp=1625608069156&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.8.tgz"
-  "version" "7.0.8"
+  "integrity" "sha1-l+3JA36gw4WFMgsolk3eOznkZg0="
+  "resolved" "https://registry.nlark.com/@types/json-schema/download/@types/json-schema-7.0.9.tgz?cache=0&sync_timestamp=1627999389398&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fjson-schema%2Fdownload%2F%40types%2Fjson-schema-7.0.9.tgz"
+  "version" "7.0.9"
 
 "@types/minimatch@*":
   "integrity" "sha1-EAHMXmo3BLg8I2An538vWOoBD0A="
@@ -2823,7 +2838,21 @@
   dependencies:
     "babylon" "^6.18.0"
 
-"babel-jest@^26.6.0", "babel-jest@^26.6.3":
+"babel-jest@^26.6.0":
+  "integrity" "sha1-2H0lywA3V3oMifguV1XF0pPAEFY="
+  "resolved" "https://registry.nlark.com/babel-jest/download/babel-jest-26.6.3.tgz?cache=0&sync_timestamp=1624900072283&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-jest%2Fdownload%2Fbabel-jest-26.6.3.tgz"
+  "version" "26.6.3"
+  dependencies:
+    "@jest/transform" "^26.6.2"
+    "@jest/types" "^26.6.2"
+    "@types/babel__core" "^7.1.7"
+    "babel-plugin-istanbul" "^6.0.0"
+    "babel-preset-jest" "^26.6.2"
+    "chalk" "^4.0.0"
+    "graceful-fs" "^4.2.4"
+    "slash" "^3.0.0"
+
+"babel-jest@^26.6.3":
   "integrity" "sha1-2H0lywA3V3oMifguV1XF0pPAEFY="
   "resolved" "https://registry.nlark.com/babel-jest/download/babel-jest-26.6.3.tgz?cache=0&sync_timestamp=1624900072283&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fbabel-jest%2Fdownload%2Fbabel-jest-26.6.3.tgz"
   "version" "26.6.3"
@@ -5629,12 +5658,12 @@
     "locate-path" "^6.0.0"
     "path-exists" "^4.0.0"
 
-"find-versions@^3.2.0":
-  "integrity" "sha1-ECl/mAMKeGgpaBaQVF72We0dJU4="
-  "resolved" "https://registry.nlark.com/find-versions/download/find-versions-3.2.0.tgz?cache=0&sync_timestamp=1619599379321&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffind-versions%2Fdownload%2Ffind-versions-3.2.0.tgz"
-  "version" "3.2.0"
+"find-versions@^4.0.0":
+  "integrity" "sha1-PFflc7+XdpuMuN8Wk0tieRXaSWU="
+  "resolved" "https://registry.nlark.com/find-versions/download/find-versions-4.0.0.tgz?cache=0&sync_timestamp=1619599379321&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffind-versions%2Fdownload%2Ffind-versions-4.0.0.tgz"
+  "version" "4.0.0"
   dependencies:
-    "semver-regex" "^2.0.0"
+    "semver-regex" "^3.1.2"
 
 "flat-cache@^3.0.4":
   "integrity" "sha1-YbAzgwKy/p+Vfcwy/CqH8cMEixE="
@@ -6323,17 +6352,17 @@
   "version" "2.1.0"
 
 "husky@^4.3.1":
-  "integrity" "sha1-GyH//u9ErJCsZdTswV5dRydF3Pg="
-  "resolved" "https://registry.nlark.com/husky/download/husky-4.3.1.tgz?cache=0&sync_timestamp=1625567131340&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhusky%2Fdownload%2Fhusky-4.3.1.tgz"
-  "version" "4.3.1"
+  "integrity" "sha1-MRRAYL6WP9aFDlzI8Bmh3+GUKW0="
+  "resolved" "https://registry.nlark.com/husky/download/husky-4.3.8.tgz?cache=0&sync_timestamp=1625567269908&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fhusky%2Fdownload%2Fhusky-4.3.8.tgz"
+  "version" "4.3.8"
   dependencies:
     "chalk" "^4.0.0"
     "ci-info" "^2.0.0"
     "compare-versions" "^3.6.0"
     "cosmiconfig" "^7.0.0"
-    "find-versions" "^3.2.0"
+    "find-versions" "^4.0.0"
     "opencollective-postinstall" "^2.0.2"
-    "pkg-dir" "^4.2.0"
+    "pkg-dir" "^5.0.0"
     "please-upgrade-node" "^3.2.0"
     "slash" "^3.0.0"
     "which-pm-runs" "^1.0.0"
@@ -7213,7 +7242,19 @@
     "jest-regex-util" "^26.0.0"
     "jest-snapshot" "^26.6.2"
 
-"jest-resolve@*", "jest-resolve@^26.6.2":
+"jest-resolve@*":
+  "version" "26.6.0"
+  dependencies:
+    "@jest/types" "^26.6.0"
+    "chalk" "^4.0.0"
+    "graceful-fs" "^4.2.4"
+    "jest-pnp-resolver" "^1.2.2"
+    "jest-util" "^26.6.0"
+    "read-pkg-up" "^7.0.1"
+    "resolve" "^1.17.0"
+    "slash" "^3.0.0"
+
+"jest-resolve@^26.6.2":
   "integrity" "sha1-o6sVFyF/RptQTxtWYDxbtUH7tQc="
   "resolved" "https://registry.nlark.com/jest-resolve/download/jest-resolve-26.6.2.tgz?cache=0&sync_timestamp=1624900069436&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fjest-resolve%2Fdownload%2Fjest-resolve-26.6.2.tgz"
   "version" "26.6.2"
@@ -9120,6 +9161,13 @@
   dependencies:
     "find-up" "^4.0.0"
 
+"pkg-dir@^5.0.0":
+  "integrity" "sha1-oC1q6+a6EzqSj3Suwguv3+a452A="
+  "resolved" "https://registry.npm.taobao.org/pkg-dir/download/pkg-dir-5.0.0.tgz"
+  "version" "5.0.0"
+  dependencies:
+    "find-up" "^5.0.0"
+
 "pkg-up@^2.0.0":
   "integrity" "sha1-yBmscoBZpGHKscOImivjxJoATX8="
   "resolved" "https://registry.npm.taobao.org/pkg-up/download/pkg-up-2.0.0.tgz"
@@ -10572,15 +10620,7 @@
   "resolved" "https://registry.nlark.com/resolve-url/download/resolve-url-0.2.1.tgz"
   "version" "0.2.1"
 
-"resolve@^1.10.0", "resolve@^1.12.0", "resolve@^1.13.1", "resolve@^1.14.2", "resolve@^1.18.1", "resolve@^1.20.0", "resolve@^1.3.2", "resolve@^1.8.1":
-  "integrity" "sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU="
-  "resolved" "https://registry.nlark.com/resolve/download/resolve-1.20.0.tgz"
-  "version" "1.20.0"
-  dependencies:
-    "is-core-module" "^2.2.0"
-    "path-parse" "^1.0.6"
-
-"resolve@^1.17.0":
+"resolve@^1.10.0", "resolve@^1.12.0", "resolve@^1.13.1", "resolve@^1.14.2", "resolve@^1.17.0", "resolve@^1.18.1", "resolve@^1.20.0", "resolve@^1.3.2", "resolve@^1.8.1":
   "integrity" "sha1-YpoBP7P3B1XW8LeTXMHCxTeLGXU="
   "resolved" "https://registry.nlark.com/resolve/download/resolve-1.20.0.tgz"
   "version" "1.20.0"
@@ -10894,12 +10934,17 @@
   dependencies:
     "semver" "^6.3.0"
 
-"semver-regex@^2.0.0":
-  "integrity" "sha1-qTwsWERTmncCMzeRB7OMe0rJ0zg="
-  "resolved" "https://registry.nlark.com/semver-regex/download/semver-regex-2.0.0.tgz?cache=0&sync_timestamp=1619598292388&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsemver-regex%2Fdownload%2Fsemver-regex-2.0.0.tgz"
-  "version" "2.0.0"
+"semver-regex@^3.1.2":
+  "integrity" "sha1-NLTA02Hu8mLgcZnb7zFtDyqxGAc="
+  "resolved" "https://registry.nlark.com/semver-regex/download/semver-regex-3.1.2.tgz?cache=0&sync_timestamp=1619598292388&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsemver-regex%2Fdownload%2Fsemver-regex-3.1.2.tgz"
+  "version" "3.1.2"
 
 "semver@^5.4.1", "semver@^5.5.0", "semver@^5.5.1":
+  "integrity" "sha1-qVT5Ma66UI0we78Gnv8MAclhFvc="
+  "resolved" "https://registry.nlark.com/semver/download/semver-5.7.1.tgz?cache=0&sync_timestamp=1618847119601&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsemver%2Fdownload%2Fsemver-5.7.1.tgz"
+  "version" "5.7.1"
+
+"semver@^5.5.0":
   "integrity" "sha1-qVT5Ma66UI0we78Gnv8MAclhFvc="
   "resolved" "https://registry.nlark.com/semver/download/semver-5.7.1.tgz?cache=0&sync_timestamp=1618847119601&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fsemver%2Fdownload%2Fsemver-5.7.1.tgz"
   "version" "5.7.1"
