@@ -6,7 +6,6 @@ import { cleanObject } from "utils";
 import qs from "qs";
 
 const apiUrl = "http://localhost:3001";
-const a = 5;
 
 export const ProjectListScreen = () => {
   const [param, setParam] = useState({
@@ -17,15 +16,31 @@ export const ProjectListScreen = () => {
   const [list, setList] = useState([]);
   const [users, setUsers] = useState([]);
 
+  // 自定义 hooks
+  const useDebounce = (value, delay) => {
+    const [debounceValue, setDebounceValue] = useState(value);
+
+    useEffect(() => {
+      // 每次在value变化以后，设置一个定时器
+      const timeout = setTimeout(() => setDebounceValue(value), delay);
+      // 每次在上一个useEffect处理完后再运行
+      return () => clearTimeout(timeout);
+    }, [value, delay]);
+
+    return debounceValue;
+  };
+
+  const debounceParam = useDebounce(param, 2000);
+
   useEffect(() => {
-    fetch(`${apiUrl}/projects?${qs.stringify(cleanObject(param))}`).then(
-      async (response) => {
-        if (response.ok) {
-          setList(await response.json());
-        }
+    fetch(
+      `${apiUrl}/projects?${qs.stringify(cleanObject(debounceParam))}`
+    ).then(async (response) => {
+      if (response.ok) {
+        setList(await response.json());
       }
-    );
-  }, [param]);
+    });
+  }, [debounceParam]);
 
   useEffect(() => {
     fetch(`${apiUrl}/users`).then(async (response) => {
