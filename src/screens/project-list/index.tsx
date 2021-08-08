@@ -30,7 +30,7 @@ export const ProjectListScreen = () => {
     return debounceValue;
   };
 
-  const debounceParam = useDebounce(param, 2000);
+  const debounceParam = useDebounce(param, 200);
 
   useEffect(() => {
     fetch(
