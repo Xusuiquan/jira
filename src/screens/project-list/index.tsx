@@ -17,7 +17,7 @@ export const ProjectListScreen = () => {
   const [users, setUsers] = useState([]);
 
   // 自定义 hooks
-  const useDebounce = (value, delay) => {
+  const useDebounce = (value: any, delay: number) => {
     const [debounceValue, setDebounceValue] = useState(value);
 
     useEffect(() => {
